@@ -10,7 +10,7 @@
 		<nav class="nav" role="navigation">
 			<div class="container nav-elements">
 				<div class="branding">
-					<a href="#home"><img src="images/hpluslogo.svg"
+					<a href="/home"><img src="images/hpluslogo.svg"
 						alt="Logo - H Plus Sports"></a>
 				</div>
 				<!-- branding -->
@@ -29,7 +29,7 @@
   </div>container tagline -->
 	</header>
 	<!-- #home -->
-
+    <span class="success">${dataSaved}</span>
    	<section id="login" class="section">
 		<div class="container tagline">
 			<em>LOGIN USER</em>
@@ -38,7 +38,7 @@
 			    <label>Password</label> <input type="password" name="password"/><br />
 			     <input type="submit" value="Login">
 			</form>
-			 <a class="card-title" href="#">Register new user? Click here</a>
+			 <a class="card-title" href="/goToRegistration">Register new user? Click here</a>
 		</div>
 	</section>
 	<!-- #products -->

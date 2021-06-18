@@ -32,7 +32,7 @@ public class SearchController {
 		List<Product> products = new ArrayList<>();
 		
 		products = productRepository.searchByName(search);
-		model.addAllAttributes(products);
+		model.addAttribute("products",products);
 		
 		return "search";
 	}
